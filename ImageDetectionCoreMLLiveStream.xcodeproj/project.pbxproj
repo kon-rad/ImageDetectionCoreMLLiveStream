@@ -13,6 +13,7 @@
 		FA24C5F1241C631600C86FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24C5EF241C631600C86FBC /* Main.storyboard */; };
 		FA24C5F3241C631800C86FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA24C5F2241C631800C86FBC /* Assets.xcassets */; };
 		FA24C5F6241C631800C86FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA24C5F4241C631800C86FBC /* LaunchScreen.storyboard */; };
+		FA24C5FE241C67CD00C86FBC /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA24C5FD241C67CD00C86FBC /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA24C5F2241C631800C86FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA24C5F5241C631800C86FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA24C5F7241C631800C86FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA24C5FD241C67CD00C86FBC /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FA24C5E8241C631600C86FBC /* ImageDetectionCoreMLLiveStream */ = {
 			isa = PBXGroup;
 			children = (
+				FA24C5FD241C67CD00C86FBC /* Inceptionv3.mlmodel */,
 				FA24C5E9241C631600C86FBC /* AppDelegate.swift */,
 				FA24C5EB241C631600C86FBC /* SceneDelegate.swift */,
 				FA24C5ED241C631600C86FBC /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA24C5EE241C631600C86FBC /* ViewController.swift in Sources */,
+				FA24C5FE241C67CD00C86FBC /* Inceptionv3.mlmodel in Sources */,
 				FA24C5EA241C631600C86FBC /* AppDelegate.swift in Sources */,
 				FA24C5EC241C631600C86FBC /* SceneDelegate.swift in Sources */,
 			);
